@@ -142,7 +142,7 @@ VALUES ('Cordoba','Córdoba');
 INSERT INTO Localidad ( provincia, ciudad)
 VALUES ('Cordoba','Carlos Paz');
 
-INSERT INTO Clientes (usuarioEmail, password, nombre, apellido, telefono, idLocalidad, fechaNacimiento)
+clientesINSERT INTO Clientes (usuarioEmail, password, nombre, apellido, telefono, idLocalidad, fechaNacimiento)
 VALUES ('juan@gmail.com', '123456', 'Juan', 'Canepa', "+543516451231", 1,'1992-09-04');
 INSERT INTO Clientes (usuarioEmail, password, nombre, apellido, telefono, idLocalidad, fechaNacimiento)
 VALUES ('lucia@gmail.com', '789123', 'Lucía', 'Gonzalez', "+543516751621", 2,'1996-12-07');

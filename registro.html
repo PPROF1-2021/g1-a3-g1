@@ -26,74 +26,85 @@
 <body>
 
     <!-- empieza el formulario -->
-    <form action="login.html" class="row justify-content-center h-100"  >
+<<<<<<< HEAD
+    <form action="php/registro1.php" method="post"   class="row justify-content-center h-100"  > 
+        <!-- En el form action, escribimos el archivo donde están los datos que van a ser tomados del registro a través del método "post"
+         y que se guardarán en la base de datos der_devplant-->
+
+
+    <form action="php/registro1.php" method="post"   class="row justify-content-center h-100"  >
+
+    
         <!-- logo devplant -->
         <img class="img" src="./img/logo_devplant.png" alt="Logo-devplant">
 
-        <!-- label donde se escribe el usuario -->
+        <!-- En esta parte del form, el nuevo usuario dejará registro de sus datos -->
 
-        <div class="col-md-12">
+        <div class="col-12 col-md-12 col-sm-12">
 
             <label for="nombre" class="form-label">Nombre</label>
             <input type="text" placeholder ="🌿 Ingresá tu nombre" name = "nombre" id="nombre" class="form-control">
         </div>
-        <div class="col-md-12">
-            <label for="Apellido" class="form-label">Apellido</label>
-            <input type="text" placeholder="🌿 Ingresá tu Apellido" name="Apellido" id="apellido" class="form-control">
+        <div class="col-12 col-md-12 col-sm-12">
+            <label for="apellido" class="form-label">Apellido</label>
+
+            <input type="text" placeholder="🌿 Ingresá tu Apellido" name="apellido" id="apellido" class="form-control">
+
         </div>
 
-
-        <div class="col-md-12">
-            <label for="fechaNacimiento" class="form-label">
-                Fecha de nacimiento
-            </label>
+        Fecha de nacimiento
+        <div class="col-12 col-md-12 col-sm-12">
+            <label for="fechaNacimiento" class="form-label"> </label>
             <input type="date" name="fechaNacimiento" id="fechaNacimiento" class="form-control">
         </div>
-        <div class="col-md-12">
+
+        E-mail
+        <div class="col-12 col-md-12 col-sm-12">
+
             <label for="email" class="form-label">
                 E-mail
             </label>
-            <input type="email" placeholder="📧 Ingresá tu E-mail" name="contraseña" id="email" class="form-control">
+
+            <input type="email" placeholder="📧 Ingresá tu E-mail" name="email" id="email" class="form-control">
         </div>
-        <div class="col-md-12">
-            <label for="provincia" class="form-label">
-                Provincia
-            </label>
+
+        Provincia
+        <div class="col-12 col-md-12 col-sm-12">
+            <label for="provincia" class="form-label"></label>
             <input type="text" placeholder="🏘️ Ingresá tu provincia" name="provincia" id="provincia" class="form-control">
         </div>
-        <div class="col-md-12">
-            <label for="pais" class="form-label">
-                País
-            </label>
+
+        País
+        <div class="col-12 col-md-12 col-sm-12">
+            <label for="pais" class="form-label"> </label>
             <input type="text" placeholder="🌎 Ingresá tu país" name="pais" id="pais" class="form-control">
         </div>
-        <div class="col-md-12">
-            <label for="password" class="form-label">
-                Contraseña
-            </label>
+
+        Contraseña
+        <div class="col-12 col-md-12 col-sm-12">
+            <label for="password" class="form-label"> </label>
             <input type="password" placeholder="🔐 Ingresa tu contraseña" name="password" id="password" maxlength="10" class="form-control">
         </div>
+
+
+
         <div class="botones">
-            <button class="btn btn-primary" type="submit" id="registrar" >Registrar</button> 
-        </div>  
-        <div class="col-md-12 justify-content-center">
-            <p class="registro" style="font-size: 15px;">Esta registrado? <a href="login.html" style="padding-left: 10px;"> ¡INGRESE AQUI!</a></p>
+            <input type="submit" id="registrar" ></input> 
+
+
+        <div class="col-12 col-md-12 col-sm-12 justify-content-center">
+            <p class="registro" style="font-size: 15px;">Esta registrado? <a href="login.html" style="padding-left: 10px;">¡INGRESE AQUI!</a></p>
         </div>
         
        
         <!-- Redirige a pagina de inicio -->
-        <div class="col-md-12 inicio">
+        <div class="col-12 col-md-12 col-sm-12 inicio">
             <a href="./index.html">Volver al inicio</a>
-            </div>
+        </div>
         
     </form>
 
     <!-- termina el formulario -->
-
-
-
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
